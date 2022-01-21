@@ -1,0 +1,33 @@
+.App {
+  text-align: left;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+div.css-header {
+  height: 150px;
+  width: 100%;
+
+  /* css background image, just lots of pixels */
+  background-image: url("../public/scenery-800w.jpg");
+
+  /* makes sure the image covers the whole container and is positioned in center */
+  background-size: cover;
+  background-position: center center;
+}
+
+img.improved-header {
+  /* makes sure the image element acts as a block */
+  display: block;
+
+  /* take all space horizontally, but limit height to avoid layout breakdowns */
+  width: 100%;
+  height: 150px;
+
+  /* makes sure the image covers the whole container and is positioned in center */
+  object-fit: cover;
+  object-position: center center;
+}
